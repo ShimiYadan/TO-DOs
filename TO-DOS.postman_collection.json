@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "738bdc89-d4c9-4c5e-8a69-b73a72bb1599",
+		"name": "TO-DOS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25246726",
+		"_collection_link": "https://red-trinity-301558.postman.co/workspace/Team-Workspace~653419d2-b2c3-4ddb-8436-66eaec96f591/collection/25246726-738bdc89-d4c9-4c5e-8a69-b73a72bb1599?action=share&creator=25246726&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"title\":  \"msg 7\",\r\n     \"userId\": \"64a9bd8da42bc82fe33d8848\",\r\n     \"deadline\": \"2023-07-08T00:12:00.525Z\", \r\n     \"destination\": \"mobile\",\r\n     \"completed\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"64a9be15a42bc82fe33d8849\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"64a9bd8da42bc82fe33d8848\",\r\n    \"title\": \"msg 2\",\r\n    \"deadline\": \"2023-07-08T19:30:38.712Z\",\r\n    \"completed\": false,\r\n    \"_id\": \"64a9c3c14ad3f421b3529ebc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/todo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"todo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

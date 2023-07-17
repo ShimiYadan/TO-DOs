@@ -4,6 +4,7 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "outDir": "dist",
+        "rootDir": "src",
         "sourceMap": true,
         "target": "ES6",
         "strict": true,
@@ -11,7 +12,7 @@
         "strictNullChecks": true,
         "noImplicitThis": true,
         "alwaysStrict": true,
-        "noUnusedLocals": true,
+        "noUnusedLocals": false,
         "noUnusedParameters": false,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true
@@ -22,9 +23,9 @@
     ],
     "include": [
         "src/**/*.ts"
-      ],
-      "exclude": [
+    ],
+    "exclude": [
         "**/*.spec.ts",
         "node_modules"
-      ]
+    ]
 }

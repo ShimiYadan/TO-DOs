@@ -19,7 +19,7 @@ Postman collection:
 https://red-trinity-301558.postman.co/workspace/Team-Workspace~653419d2-b2c3-4ddb-8436-66eaec96f591/collection/25246726-738bdc89-d4c9-4c5e-8a69-b73a72bb1599?action=share&creator=25246726
 
 # License
-This module is released under the MIT License.
+This REST API is released under the MIT License.
 
 
 

@@ -1,5 +1,5 @@
 # REST API
-A REST API with simple request: create, edit and delete.
+A REST API with simple requests: create, edit and delete.
 This API receives the request and send it to the rabbitMQ producer.
 
 # Installation

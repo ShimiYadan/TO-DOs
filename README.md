@@ -8,11 +8,9 @@ Since we need a scalability, high-prformence, havy traffic and executing multipl
 the queue helpping us to consume the notifications fast and not overkill the i/O such as DB and HTTP/S requests.
 Note: the worker script should be in javascript.
 
-# install rabbitMQ on windows/Mac
-# Chocolatey - https://chocolatey.org/
+# installations https://chocolatey.org/
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
-# run the command
 choco install rabbitmq
 
 # Design using lucid:

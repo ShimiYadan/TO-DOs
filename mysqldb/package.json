@@ -1,0 +1,14 @@
+{
+  "name": "mysqldb",
+  "version": "1.0.0",
+  "main": "src/init.ts",
+  "scripts": {},
+  "dependencies": {
+    "sequelize": "^6.32.1",
+    "mysql2": "^3.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
